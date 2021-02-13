@@ -1,0 +1,10 @@
+.separator {
+  position: relative;
+  overflow: hidden;
+  margin: calc(var(--global-space) * 4) 0;
+  border: 0;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-bottom: 1px dashed var(--secondary-color);
+}

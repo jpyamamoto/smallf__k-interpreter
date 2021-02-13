@@ -1,0 +1,20 @@
+.inputbox {
+  max-width: 200px;
+}
+
+.memory {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.memory > * {
+  margin: 5px;
+}
+
+.label {
+  margin-bottom: 0;
+}
+
+.space {
+  margin-right: 0.5rem;
+}

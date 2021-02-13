@@ -1,0 +1,20 @@
+{
+  "targets": {
+    "debug": {
+      "binaryFile": "src/assets/wasm/untouched.wasm",
+      "textFile": "src/assets/wasm/untouched.wat",
+      "sourceMap": true,
+      "debug": true
+    },
+    "release": {
+      "binaryFile": "src/assets/wasm/optimized.wasm",
+      "textFile": "src/assets/wasm/optimized.wat",
+      "sourceMap": true,
+      "optimizeLevel": 3,
+      "shrinkLevel": 1,
+      "converge": false,
+      "noAssert": false
+    }
+  },
+  "options": {}
+}

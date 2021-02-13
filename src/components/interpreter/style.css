@@ -1,0 +1,26 @@
+.memory {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.memory > * {
+  margin: 5px;
+}
+
+.label {
+  margin-bottom: 0;
+}
+
+.container {
+  border: 1px solid var(--font-color);
+  padding: 1em;
+}
+
+.group {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 2px;
+}
