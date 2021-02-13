@@ -67,7 +67,7 @@ class Configuration extends Component {
               name="program-input"
               onInput={this.inputProgram}
               value={props.program}
-            ></textarea>
+            >{props.program}</textarea>
           </div>
 
           <p id="memory" class={style.label}>Initial State:</p>

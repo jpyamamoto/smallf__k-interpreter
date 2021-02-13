@@ -4,6 +4,8 @@
 
 Smallfuck interpreter built with [AssemblyScript](assemblyscript.org/) and [Preact](https://preactjs.com/).
 
+[Demo](https://smallf-k-interpreter.vercel.app/)
+
 ## Installation
 
 After cloning this project:
