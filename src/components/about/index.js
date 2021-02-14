@@ -27,8 +27,8 @@ const About = () => (
     <p>The interface was made using <a href="https://preactjs.com/">PreactJS</a>, and the <a href="https://terminalcss.xyz/">Terminal CSS</a> framework.</p>
 
     <h2>Author</h2>
-    <p>Hey there! I'm Juan Pablo Yamamoto, a computer-scientist from Mexico City.</p>
-    <p>If you would like to check-out the source code of this project, head over to the <a href="https://github.com/JPYamamoto/smallf__k-interpreter">GitHub repository</a>.</p>
+    <p>Hey there! I'm Juan Pablo Yamamoto, a computer scientist from Mexico City.</p>
+    <p>If you would like to check out the source code of this project, head over to the <a href="https://github.com/JPYamamoto/smallf__k-interpreter">GitHub repository</a>.</p>
     <p>Also, you should check some of my other projects on <a href="https://github.com/JPYamamoto/">GitHub</a> as well, or my social networks:</p>
     <ul>
       <li><a href="https://www.instagram.com/no.compila/">Instagram</a></li>

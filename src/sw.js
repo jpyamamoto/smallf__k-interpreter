@@ -1,3 +1,8 @@
-import { getFiles, setupPrecaching } from 'preact-cli/sw/';
+import { getFiles, setupPrecaching, setupRouting } from 'preact-cli/sw/';
 
-setupPrecaching(getFiles());
+setupRouting();
+
+const links = getFiles();
+links.push({url: '/assets/wasm/optimized.wasm', revision: null});
+
+setupPrecaching(links);
